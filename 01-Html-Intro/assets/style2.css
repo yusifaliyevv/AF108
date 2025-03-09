@@ -1,0 +1,76 @@
+header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.nola{
+    height: 5px;
+    color: black;
+    background-color: black;
+    /* margin-bottom: 60px; */
+}
+
+.xp>h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-top:  60px;
+}
+
+.work{
+    height: 3px;
+    color: black;
+    background-color: black;
+}
+
+.senior>.minor{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+li{
+    font-size: larger;
+    margin: 20px;
+}
+
+.html>.dev{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+.education>h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.herzing>.madison{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.educ{
+    font-style: italic;
+    font-size: larger;
+}
+
+.professional>h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding-top: 40px;
+}
+
+.emard{
+    text-align: center;
+}
