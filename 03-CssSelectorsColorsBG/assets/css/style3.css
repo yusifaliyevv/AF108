@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+div{
+    border: 10px solid black;
+    background-image: url(/assets/images/agac2.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 150px;
+    padding: 30px;
+    width: 50%;
+    overflow-y: scroll;
+    height: 60%;
+}

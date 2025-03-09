@@ -1,0 +1,14 @@
+body{
+    background-image: url(/assets/images/agac.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+div{
+    padding: 30px;
+    text-align: center;
+    width: 1000px;
+    font-size: xx-large;
+    color: yellow;
+    margin-left: 400px;
+}
