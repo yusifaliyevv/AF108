@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bir{
+    display: flex;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.iki{
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.mavi{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #1a57c5;
+    min-width: max-content;
+    margin: auto;
+}
+
+.container{
+    padding-top: 200px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.div{
+    height: max-content;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.diviki{
+    height: max-content;
+    margin-left: 150px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}

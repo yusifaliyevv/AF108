@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    height: max-content;
+}
+
+.ilk{
+    display: flex;
+    margin: auto;
+}
+
+.son{
+    display: flex;
+    margin: auto;
+}
+
+.ilk>div{
+    margin: 40px;
+}
+
+.son>div{
+    margin: 40px;
+}
+
+.yasil{
+    background-color: #66f096;
+    padding: 30px;
+    border: 5px solid  red;
+    border-radius: 90px;
+    width: 400px;
+    height: 200px;
+}
+
+.welcome{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px 0px 0px 40px;
+    width: 220px;
+    height: max-content;
+}
+
+.yasil>p:nth-child(2){
+    font-size: xx-large;
+    margin: 30px 0px 0px 40px;
+}
+
+.narinci{
+    background-color: #ffa000;
+    width: 400px;
+    height: 200px;
+    border: 5px solid  red;
+    border-radius: 25% 10%;
+    padding: 30px;
+}
+
+.narinci>p:nth-child(2){
+    font-size: xx-large;
+    margin: 30px 0px 0px 40px;
+}
+
+.aqua>p:nth-child(2){
+    font-size: x-large;
+    margin: 30px 0px 0px 40px;
+}
+
+.aqua{
+    background-color: #00ffff;
+    width: 400px;
+    height: 200px;
+    border: 5px solid  red;
+    border-radius: 35px 10em 10%;
+    padding: 30px;
+}
+
+.grey>p:nth-child(2){
+    font-size: x-large;
+    margin: 30px 0px 0px 40px;
+}
+
+.grey{
+    background-color: #9ed9e7;
+    width: 400px;
+    height: 200px;
+    border: 5px solid  red;
+    border-radius: 50px 50% 50cm 50em;
+    padding: 30px;
+}
+
+.container{
+    width: max-content;
+    height: max-content;
+}

@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    background-color: #f5f0e6;
+    text-align: center;
+}
+
+header {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hamilton {
+    font-family: 'Great Vibes', cursive;
+    font-size: 150px;
+    margin: 10px 0;
+}
+
+.the {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #b58a52;
+    display: block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.ff {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: #b58a52;
+    letter-spacing: 10px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.sse {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.crafted {
+    font-family: 'Great Vibes';
+    font-size: 40px;
+    color: #b58a52;
+    margin-top: 20px;
+}
+
+.afim {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #90724a;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
