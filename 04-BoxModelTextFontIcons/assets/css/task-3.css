@@ -14,7 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .overlay {
