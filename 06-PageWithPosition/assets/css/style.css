@@ -1,0 +1,181 @@
+body{
+    display: flex;
+}
+
+aside{
+    width: 400px;
+    padding: 30px;
+    /* position: fixed; */
+    /* height: 100vh; */
+}
+
+.searchbar{
+    margin: 0px 0px 20px 0px;
+}
+
+.search{
+    width: 231px;
+    height: 37px;
+}
+
+::placeholder{
+    padding: 20px;
+}
+
+.section{
+    /* padding-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+ul li{
+    padding: 10px 0px;
+    color: grey;
+}
+
+hr{
+    margin: 15px 0px;
+}
+
+/* span{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+} */
+
+.s input{
+    gap: 10px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.xl input, .xxl input, .full_size input{
+    width: 106.67px;
+    padding: 10px 20px;
+}
+
+.s{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.xl, .xxl, .full_size{
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.xl, .xxl, .full_size, .s{
+    border-radius: 0px;
+}
+
+input{
+    border-radius: 0px;
+    border: 1px solid grey;
+}
+
+.colors {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.clr_first{
+    margin-bottom: 10px;
+}
+
+.tag_box div input{
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.tag_box div{
+    margin-top: 15px;
+}
+
+.tg{
+    gap: 30px;
+}
+
+.sizing div input[type="button"] {
+    background: none;
+    cursor: pointer;
+}
+
+.sizing div input:hover{
+    background: #f7f7f7;
+}
+
+.tag_box div input[type="button"] {
+    background: #effaff;
+    cursor: pointer;
+    border: none;
+}
+
+.item_card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 350px;
+    position: relative;
+}
+
+.image{
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 350px;
+    justify-content:center ;
+    align-items: center;
+}
+
+.star i{
+    font-size: 15px;
+}
+
+.card_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 20px;
+    color: #333;
+}
+
+.card_price{
+    margin-top: 8px;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.pos{
+    margin-top: 30px;
+}
+
+.sale{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    padding: 5px 25px;
+    background-color: black;
+    top: 50px;
+}
