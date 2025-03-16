@@ -1,23 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
 body{
     background-image: url(/assets/images/8q90217t58_Humpback_Whale_and_Calf_WW2131047.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    display: flex;
 }
-
-/* .divbir{
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-    align-items: center;
-} */
 
 .divbir{
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 65%;
     border: 2px solid black;
     text-align: center;
