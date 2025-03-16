@@ -266,6 +266,8 @@ button:hover{
 
 .txt_info div{
     width: max-content;
+    flex: 1;
+    min-width: 200px;
 }
 
 .field input{
@@ -277,15 +279,8 @@ button:hover{
 }
 
 .txt_info{
-    display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
-}
-
-.txt_info div{
-    flex: 1;
-    min-width: 200px;
 }
 
 .footer{
