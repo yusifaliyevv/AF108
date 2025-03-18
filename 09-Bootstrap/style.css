@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .nav_list li a:hover {
     color: yellow;
 }
@@ -59,7 +58,6 @@
     .navbar .repo {
         background-color: #fff;
     }
-
     .navbar .repo a {
         color: #242320;
     }
@@ -68,7 +66,6 @@
     .landing h1 {
         font-size: 30px;
     }
-
 }
 @media (max-width:557px) {
     .counter .row{
