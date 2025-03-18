@@ -1,0 +1,85 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_list li a:hover {
+    color: yellow;
+}
+.bg_fixed {
+    height: 100vh;
+    background-image: url(image/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.counter {
+    background-image: url(image/yellow.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.counter .lines::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+.counter .lines::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+}
+.row a {
+    color: #8c979e;
+    text-decoration: none;
+}
+.row a:hover {
+    color: blueviolet;
+}
+.h-w a img{
+    height: 460px;
+    width: 460px;
+}
+@media (max-width:991px) {
+    .navbar .repo {
+        background-color: #fff;
+    }
+
+    .navbar .repo a {
+        color: #242320;
+    }
+}
+@media (max-width:557px) {
+    .landing h1 {
+        font-size: 30px;
+    }
+
+}
+@media (max-width:557px) {
+    .counter .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .counter .breaks::before,
+    .counter .breaks::after {
+        display: none;
+    }
+    .counter .breaks {
+        padding: 15px 0;
+    }
+}
