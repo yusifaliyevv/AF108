@@ -1,0 +1,156 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: black;
+    padding: 30px;
+    border-radius: 15px;
+    width: 600px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 50px;
+}
+
+.input-group,
+.search-group,
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button i {
+    font-size: 15px;
+}
+
+.add-btn {
+    background-color: #1150F3;
+    color: white;
+}
+.add-btn:hover {
+    background-color: #1a3d97;
+    transition: ease-in-out 0.3s;
+}
+
+.clear-all {
+    background-color: #f32314;
+    color: white;
+}
+.clear-all:hover {
+    background-color: #861111;
+    transition: ease-in-out 0.3s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ddf7fc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+li.done {
+    background-color: #b6fac2;
+}
+
+.todo-left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.checkbox {
+    transform: scale(1.5);
+    border-radius: 0;
+}
+
+.todo-text {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.todo-text.done-text {
+    color: green;
+    text-decoration: line-through;
+}
+
+.todo-date {
+    display: block;
+    font-size: 15px;
+    color: #575656;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.todo-actions button {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.edit-btn {
+    background-color: #1150F3;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #1a3d97;
+    transition: ease-in-out 0.3s;
+}
+
+.delete-btn {
+    background-color: #f32314;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #861111;
+    transition: ease-in-out 0.3s;
+}

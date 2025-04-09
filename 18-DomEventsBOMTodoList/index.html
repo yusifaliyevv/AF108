@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+
+      <div class="search-group">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="task axtarin"
+          onkeyup="moveToDo()"
+        />
+      </div>
+
+      <div class="input-group">
+        <input type="text" id="todoInput" placeholder="yeni task elave edin" />
+      </div>
+
+      <div class="action-buttons">
+        <button class="add-btn" onclick="addTodo()">
+          <i class="fas fa-plus"></i>
+        </button>
+        <button class="clear-all" onclick="deleteAll()">
+          <i class="fas fa-trash-alt"></i>
+        </button>
+      </div>
+
+      <ul id="todoList"></ul>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
