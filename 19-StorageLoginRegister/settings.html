@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Account Settings</h2>
+      <p>Welcome <span id="welcomeUser"></span></p>
+      <input type="text" id="newUsername" placeholder="New username" />
+      <input type="email" id="newEmail" placeholder="New email" />
+      <button onclick="updateAccount()">Reset</button>
+      <button class="logout" onclick="logout()">Sign Out</button>
+    </div>
+
+    <script src="./assets/js/settings.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-container reg-container">
+      <h2>Register</h2>
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="username" placeholder="Username" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <input
+        type="password"
+        id="confirmPassword"
+        placeholder="Confirm password"
+      />
+      <button onclick="register()">Register now</button>
+      <p>Already have an account? <a href="login.html">Sign In</a></p>
+    </div>
+
+    <script src="./assets/js/register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>
