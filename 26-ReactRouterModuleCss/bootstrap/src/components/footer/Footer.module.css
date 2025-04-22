@@ -1,0 +1,11 @@
+.footerCont{
+    background-color: #212529;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 20px;
+    color: white;
+}
