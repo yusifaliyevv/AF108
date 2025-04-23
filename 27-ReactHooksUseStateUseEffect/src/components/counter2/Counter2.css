@@ -1,0 +1,85 @@
+.container_tw {
+  max-width: 500px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  padding: 40px;
+  border-radius: 15px;
+  margin: 0 auto 100px auto;
+}
+
+.counter_card {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  transition: transform 0.5s ease;
+}
+
+.counter_card.flip {
+  animation: flipAnimation 0.5s forwards;
+}
+
+@keyframes flipAnimation {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.buttons button {
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.buttons button:hover {
+  background: #00ffff;
+}
+
+.input_area input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 80px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.input_area button:hover {
+  background: #00ffff;
+}
+
+.input_area button {
+  margin-left: 15px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
