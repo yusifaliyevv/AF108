@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { addProduct, deleteProduct, editProduct } from "../redux/adminSlice";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import { editApiProduct, deleteApiProduct } from "../redux/productSlice";
+import { deleteProduct as deleteAdminProduct } from "../redux/adminSlice";
+import { deleteApiProduct } from "../redux/productSlice";
 
 const AdminPanel = () => {
   const dispatch = useDispatch();
@@ -69,10 +70,11 @@ const AdminPanel = () => {
     if (isApiProduct) {
       dispatch(deleteApiProduct(id));
     } else {
-      dispatch(deleteProduct(id));
+      dispatch(deleteAdminProduct(id));
     }
     toast.info("Product deleted");
   };
+  
 
   return (
     <div className="container mt-4">
