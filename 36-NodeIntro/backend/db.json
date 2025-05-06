@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Yusif",
+      "surname": "Eliyev",
+      "age": 19,
+      "isStudent": true
+    },
+    {
+      "id": "2",
+      "name": "Murad",
+      "surname": "Abbasov",
+      "age": 20,
+      "isStudent": true
+    },
+    {
+      "id": "3",
+      "name": "Rovsen",
+      "surname": "Selimzade",
+      "age": 21,
+      "isStudent": false
+    },
+    {
+      "id": "c966edf9-3252-418d-8d90-4c94a6d8b07e",
+      "name": "Meqsed",
+      "surname": "Ehmedov",
+      "age": "34",
+      "isStudent": false
+    },
+    {
+      "id": "4f34d7d9-2f8c-498d-bbc4-64363f038d42",
+      "name": "Elnur",
+      "surname": "Namazaliyev",
+      "age": "14",
+      "isStudent": true
+    }
+  ]
+}
